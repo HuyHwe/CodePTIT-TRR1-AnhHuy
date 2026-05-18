@@ -6,7 +6,7 @@ using namespace std;
  * Motif: Theo mau sinh_hoan_vi.cpp, thay doi logic sang tim hoan vi truoc
  */
 
-int n, a[105];
+int n, a[10005];
 
 void result() {
     for (int i = 1; i <= n; i++) {
@@ -41,7 +41,7 @@ bool prev_permutation() {
 }
 
 int main() {
-    if (cin >> n) {
+    while (cin >> n) {
         for (int i = 1; i <= n; i++) cin >> a[i];
         
         if (prev_permutation()) {

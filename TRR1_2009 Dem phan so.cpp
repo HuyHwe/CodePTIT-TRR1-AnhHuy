@@ -12,7 +12,7 @@ int main() {
     if (cin >> n) {
         if (n == 0) {
             cout << 0 << endl;
-            return;
+            return 0;
         }
 
         // Su dung sang de tinh ham phi Euler cho cac so tu 1 den n
